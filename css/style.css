@@ -5,9 +5,18 @@ html, body {
     height: 100%;
 }
 
-.wrapper {
-    width: 1250px;
-    margin: 0 auto;
+header {
+    height: 110px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 71%);
+}
+
+.logo {
+    width: auto;
+}
+
+.header-menu {
+    display: inline-block;
 }
 
 main {
@@ -19,4 +28,9 @@ main {
 footer {
     background: #191919;
     height: 320px;
+}
+
+.wrapper {
+    width: 1250px;
+    margin: 0 auto;
 }
